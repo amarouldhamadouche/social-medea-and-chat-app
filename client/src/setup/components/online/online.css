@@ -1,0 +1,28 @@
+.onlineFriend{
+ display: flex;
+ align-items: center;
+ 
+}
+.profilImgContainer{
+ padding: 0;
+ margin-left: 10px;
+ position: relative;
+}
+.onlineFriendImg{
+ width:40px;
+ height: 40px;
+ object-fit: cover;
+ border-radius: 50%;
+ cursor: pointer;
+}
+
+.profileOnline{
+ width:10px;
+ height: 10px;
+ border-radius: 50%;
+ background-color:limegreen;
+ position: absolute;
+ top: 24px;
+ right: 0px;
+ border: 2px solid black;
+}

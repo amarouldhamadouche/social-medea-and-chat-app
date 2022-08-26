@@ -1,0 +1,17 @@
+.loginBtn1{
+ padding: 0 10% 0 10%;
+ width: 60%;
+ height: 40px;
+ border: solid 1px limegreen;
+ border-radius:10px ;
+ background-color: black;
+ color: white;
+ font-size: 20px;
+ 
+}
+
+.loginBtnDiv{
+ padding: 0 20% 0 20%;
+ margin-top: 10px;
+ width: 100%;
+}

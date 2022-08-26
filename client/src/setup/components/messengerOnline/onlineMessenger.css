@@ -1,0 +1,32 @@
+.onlineMessenger{
+ padding : 10px;
+
+}
+.onlineMessengerWrapper{
+ margin: 10px;
+ display: flex;
+ 
+}
+.onLineConversation{
+ position: relative;
+}
+.onlineMessengerProfilePicture{
+ height: 30px;
+ width: 30px;
+ object-fit: cover;
+ border-radius: 50%;
+ margin-right: 10px;
+}
+.onlineMessengerUsername{
+ color : white
+}
+.greenPoint{
+ position: absolute;
+ background-color: limegreen;
+ border-radius: 50%;
+ width: 10px;
+ height: 10px;
+ top : 18px;
+ right : 7px;
+ border : solid 1px black 
+}

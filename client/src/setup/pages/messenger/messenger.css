@@ -1,0 +1,100 @@
+.messenger {
+  background-color: black;
+  width: 100%;
+  height: calc(100vh - 50px);
+  display: flex;
+  position: sticky;
+  top: 50px;
+}
+.messengerLeft {
+  flex: 3;
+  padding: 10px;
+  overflow-y: hidden;
+}
+.messengerLeft:hover {
+  overflow-y: initial;
+}
+.messengerLeft::-webkit-scrollbar {
+  background-color: black;
+}
+.messengerLeftWrapper {
+  padding: 20px;
+}
+.messengerLeftInputContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.messengerLeftInput {
+  width: 70%;
+  border-radius: 50px;
+  border: none;
+
+  height: 30px;
+}
+.messengerLeftInput:focus {
+  outline: none;
+}
+.messengerCenter {
+  flex: 5.5;
+  height: calc (100vh - 50px);
+  top: 50px;
+  position: sticky;
+  padding: 10px;
+  border: solid 1px limegreen;
+  border-top: none;
+  border-radius: 0 0 30px 30px;
+}
+
+.messengerRight {
+  flex: 3;
+  overflow-y: hidden;
+  height: calc(100vh - 50px);
+}
+.messengerRight:hover {
+  overflow-y: auto;
+}
+.messengerMessageTop {
+  height: calc(100vh - 105px);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.messengerMessageTop:hover {
+  overflow-y: auto;
+}
+.messengerMessageTop::-webkit-scrollbar {
+  background-color: black;
+}
+.messageBottom {
+  position: absolute;
+  bottom: 20px;
+  width: 90%;
+  padding: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.messageBottomInput {
+  width: 60%;
+  border-radius: 10px;
+  height: 30px;
+}
+.messageBottomInput:focus {
+  outline: none;
+}
+
+.messageBottomButton {
+  margin-left: 10px;
+  padding: 9px;
+  border-radius: 10px;
+}
+.noCheckBox {
+  color: white;
+  font-size: 50px;
+  cursor: default;
+  position: absolute;
+  top: 10%;
+  opacity: 0.2;
+}

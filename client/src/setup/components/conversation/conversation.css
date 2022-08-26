@@ -1,0 +1,18 @@
+.conversation{
+ margin-top: 10px;
+ display: flex;
+ margin: 30px 0 30px 0;
+ align-items: center;
+ 
+}
+.conversationImg{
+ width : 40px;
+ height:40px;
+ border-radius: 50%;
+ object-fit: cover;
+ margin-right: 20px;
+}
+.conversationUsername{
+ font-weight: bolder;
+ color: white;
+}

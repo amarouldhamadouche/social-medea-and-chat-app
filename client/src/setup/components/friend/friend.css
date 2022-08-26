@@ -1,0 +1,17 @@
+.friendListItems{
+ padding: 0;
+ display: flex;
+ align-items: center;
+ margin-bottom: 8px;
+}
+.img{
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+ object-fit: cover;
+
+}
+.username{
+ padding: 8px;
+ color: white;
+}

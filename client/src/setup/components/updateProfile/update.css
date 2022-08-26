@@ -1,0 +1,109 @@
+.updateProfile{
+padding : 0 0 30px 0;
+width:100%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: black;
+margin-top: 80px;
+}
+.updateWrapper{
+ position: relative;
+}
+.UPTitlediv{
+
+ position: absolute;
+top: -10px;
+ background-color: black;
+ margin-right: 5px;
+z-index: 1;
+}
+.updateBorder{
+ padding: 1px;
+ width: 100%;
+ background-color: limegreen;
+ border-radius: 10%;
+ position: relative;
+}
+ .updateContainer{
+padding: 20px 120px 20px 120px;
+background-color:black;
+
+ }
+ .UPCtop{
+  display: flex;
+  flex-direction: column;
+ 
+ }
+ .UCPlabel{
+  margin: 10px;
+ }
+ .UCPspan{
+  text-decoration:underline
+ }
+ .UPHR{
+  margin:50px 0px 50px 0px;
+  color:white
+ }
+ .updateKey{
+  display: flex;
+  justify-content: space-between;
+  padding:20px
+ }
+ .updateLabel{
+  color : white;
+  flex:1
+ }
+
+ .updateInput{
+  flex: 1;
+  border: solid 1px white;
+  border-radius: 50px;
+  background-color: black;
+  width:  90%;
+  height: 20px;
+   margin: 10px 10x 10px;
+   color:white;
+ }
+
+ .updateInput:focus{
+  outline: none;
+  color:white
+ }
+ .updateInput::placeholder{
+  margin-left: 10px;
+ }
+ .upButton{
+  background-color: black;
+  border: solid 0.5px limegreen;
+  margin-right: 10px;
+  padding: 5px;
+  color: white;
+  position: absolute;
+  right:100px;
+  bottom: 100px;
+  border-radius:10%
+
+ }
+ .cancelButton{
+   padding: 5px;
+  background-color: black;
+  border: solid 0.5px limegreen;
+  color:white;
+  position: absolute;
+  right:50px;
+  bottom: 100px;
+  border-radius:10%
+  
+ }
+ .changeButton{
+  padding: 5px;
+ background-color: black;
+ border: solid 0.5px limegreen;
+ color:white;
+ position: absolute;
+ right:50px;
+ bottom: 5px;
+ border-radius:10%
+ 
+}

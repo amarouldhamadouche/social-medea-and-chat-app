@@ -1,0 +1,90 @@
+.postContainer{
+  border-radius: 10%;
+  padding: 1px;
+  background-color: limegreen;
+  margin: 30px 0; 
+ }
+.post{
+  width: 100%;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+ 
+  background-color: black;
+}
+.postWrapper{
+ padding: 10px;
+}
+.top {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.topLeft {
+ display: flex;
+ align-items: center;
+}
+.userInfo{
+ display: flex;
+ align-items: center;
+ margin-right: 5px;
+}
+.postIcon{
+width: 32px;
+height: 32px;
+border: 1px solid limegreen;
+border-radius: 50%;
+object-fit: cover;
+background-color: white;
+}
+.userName {
+ font-size: 15px;
+ font-weight: bold;
+ margin: 0 10px;
+ cursor: pointer;
+
+}
+.timeCounter{
+ font-size: small;
+}
+.moreVert{
+  cursor: pointer;
+}
+.center{
+  margin: 20px 0;
+}
+.desc{
+  margin-left: 10px;
+}
+.publicationImg{
+  margin-top: 10px;
+  min-width: 90%;
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  border-radius: 5%;
+}
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottomLeft{
+  display: flex;
+  align-items: center;   
+}
+.likeIcon{
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.likeCounter{
+  font-size: 15px;
+  cursor: pointer;
+}
+.commentCounter{
+  cursor: pointer;
+  border-bottom: 1px dashed gray;
+  font-size: 15px;
+}
